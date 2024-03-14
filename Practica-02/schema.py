@@ -1,6 +1,6 @@
 
 def schema_product(data)->dict:
-    return { "product_id": str(data[0]),
+    return { "product_id": str(data['_id']),
               "name": data[1],
               "description" : data[2],
               "company":data[3],
